@@ -1,7 +1,8 @@
 from HelloWorld import say_hi
 
 def main():
-    say_hi(input('Name: '))
+    name = input('Name: ')
+    say_hi(name)
 
 if __name__ == '__main__':
     main()
